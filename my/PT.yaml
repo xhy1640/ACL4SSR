@@ -1,9 +1,8 @@
 payload:
-  # PT
-  - DOMAIN-SUFFIX,fsm.name 
-  - DOMAIN-SUFFIX,audiences.me
-  - DOMAIN-SUFFIX,hhanclub.top
-  - DOMAIN-SUFFIX,bakabt.me 
+  - DOMAIN-SUFFIX,fsm.name,PT
+  - DOMAIN-SUFFIX,audiences.me,PT
+  - DOMAIN-SUFFIX,hhanclub.top,PT
+  - DOMAIN-SUFFIX,bakabt.me,PT
   - DOMAIN-SUFFIX,lemonhd.org
   - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,azusa.ru
@@ -11,12 +10,12 @@ payload:
   - DOMAIN-SUFFIX,hd4fans.org
   - DOMAIN-SUFFIX,hd.ai
   - DOMAIN-SUFFIX,hdchina.org
-  - DOMAIN-SUFFIX,www.hdchina.org 
+  - DOMAIN-SUFFIX,www.hdchina.org
   - DOMAIN-SUFFIX,hdupt.com
   - DOMAIN-SUFFIX,jpopsuki.eu
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oppaiti.me
-  - DOMAIN-SUFFIXerclub.com
+  - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,skyey2.com
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,ultrahd.net
@@ -35,12 +34,12 @@ payload:
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,haidan.video
   - DOMAIN-SUFFIX,dicmusic.club
-  - DOMAIN-SUFFIXsbao.club
+  - DOMAIN-SUFFIX,ptsbao.club
   - DOMAIN-SUFFIX,avgv.cc
   - DOMAIN-SUFFIX,hares.top
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,audiences.me
-  - DOMAIN-SUFFIXhome.net
+  - DOMAIN-SUFFIX,pthome.net
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,hdarea.co
@@ -53,12 +52,8 @@ payload:
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,blutopia.xyz
   - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIXpimg.me
+  - DOMAIN-SUFFIX,ptpimg.me
   - DOMAIN-SUFFIX,greatposterwall.com
   - DOMAIN-SUFFIX,cinemageddon.net
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypalobjects.com
   - DOMAIN-SUFFIX,freenom.com
-  - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,omgwtfnzbs.me
