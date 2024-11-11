@@ -1,3 +1,4 @@
 payload:
+  - USER-AGENT,ITV_Player*
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN-SUFFIX,itv.com

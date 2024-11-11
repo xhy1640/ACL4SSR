@@ -1,4 +1,5 @@
 payload:
+  - USER-AGENT,HBO%20GO%20PROD*
   - DOMAIN-KEYWORD,hbogoasia
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net

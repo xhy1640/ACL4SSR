@@ -1,2 +1,3 @@
 payload:
+  - USER-AGENT,Deezer*
   - DOMAIN-SUFFIX,deezer.com

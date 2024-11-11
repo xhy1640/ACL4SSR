@@ -1,2 +1,3 @@
 payload:
+  - USER-AGENT,All4*
   - DOMAIN-SUFFIX,c4assets.com

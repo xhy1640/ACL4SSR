@@ -70,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,bsc.getblock.io
   - DOMAIN-SUFFIX,bscscan.com
   - DOMAIN-SUFFIX,binancecnt.com
+  - PROCESS-NAME,Binance.exe
   - DOMAIN-KEYWORD,binance
   - DOMAIN-SUFFIX,binanceapi.com
   - DOMAIN-SUFFIX,bnbstatic.com
@@ -92,12 +93,14 @@ payload:
   - DOMAIN-SUFFIX,huobi.ug
   - DOMAIN-SUFFIX,huobi.co.ma
   - DOMAIN-SUFFIX,huobi.br.com
+  - PROCESS-NAME,Huobi.exe
   - DOMAIN-KEYWORD,huobi
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,okx-dns.com
   - DOMAIN-SUFFIX,okx-dns1.com
   - DOMAIN-SUFFIX,okx-dns2.com
+  - PROCESS-NAME,OKX.exe
   - DOMAIN-KEYWORD,okx
   - DOMAIN-SUFFIX,asproex.com
   - DOMAIN-SUFFIX,asproexapi.com

@@ -1,2 +1,4 @@
 payload:
+  - USER-AGENT,JOOX*
+  - USER-AGENT,WeMusic*
   - DOMAIN-KEYWORD,jooxweb-api
