@@ -1,0 +1,15 @@
+payload:
+  # mylist
+  - DOMAIN-SUFFIX,ozznb.com
+  - DOMAIN-SUFFIX,orzz.cf
+  - DOMAIN-SUFFIX,v.ps
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,vps.hosting
+  - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,wise.com
+  - DOMAIN-SUFFIX,ozan.com
+  - IP-CIDR,64.44.131.146/32
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,rickandmorty1.ca
+  - DOMAIN-SUFFIX,nzbs.in
