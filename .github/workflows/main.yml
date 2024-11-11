@@ -1,0 +1,42 @@
+name: Convert All Lists to YAML
+
+on:
+  #schedule:
+    #- cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Convert .list Files to .yaml
+      run: |
+        mkdir -p Clash/MyProviders
+        for list_file in Clash/Ruleset/*.list; do
+          # 提取文件名
+          filename=$(basename "$list_file" .list)
+          
+          # 创建 .yaml 文件并添加 `payload` 字段
+          echo "payload:" > "Clash/MyProviders/$filename.yaml"
+          
+          # 逐行读取 .list 文件并转换为符合要求的格式
+          while IFS= read -r line; do
+            if [[ $line == DOMAIN* || $line == DOMAIN-SUFFIX* || $line == IP-CIDR* ]]; then
+              echo "  - $line" >> "Clash/MyProviders/$filename.yaml"
+            fi
+          done < "$list_file"
+        done
+
+    - name: Commit and Push Converted Files
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add Clash/MyProviders/*.yaml
+        git commit -m "Auto-converted .list files to .yaml"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
