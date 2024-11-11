@@ -15,7 +15,12 @@ jobs:
 
     - name: Convert .list Files to .yaml
       run: |
+        # 创建 MyProviders 目录以存放生成的 yaml 文件
         mkdir -p Clash/MyProviders
+        
+        # 定义所有可能的前缀
+        valid_prefixes="DOMAIN DOMAIN-SUFFIX DOMAIN-KEYWORD GEOIP IP-CIDR IP-CIDR6 SRC-IP-CIDR SRC-PORT DST-PORT PROCESS-NAME PROCESS-PATH USER-AGENT"
+        
         for list_file in Clash/Ruleset/*.list; do
           # 提取文件名
           filename=$(basename "$list_file" .list)
@@ -23,11 +28,14 @@ jobs:
           # 创建 .yaml 文件并添加 `payload` 字段
           echo "payload:" > "Clash/MyProviders/$filename.yaml"
           
-          # 逐行读取 .list 文件并转换为符合要求的格式
+          # 逐行读取 .list 文件并检查前缀是否匹配
           while IFS= read -r line; do
-            if [[ $line == DOMAIN* || $line == DOMAIN-SUFFIX* || $line == IP-CIDR* ]]; then
-              echo "  - $line" >> "Clash/MyProviders/$filename.yaml"
-            fi
+            for prefix in $valid_prefixes; do
+              if [[ $line == "$prefix"* ]]; then
+                echo "  - $line" >> "Clash/MyProviders/$filename.yaml"
+                break
+              fi
+            done
           done < "$list_file"
         done
 
