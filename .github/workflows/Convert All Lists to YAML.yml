@@ -1,8 +1,8 @@
 name: Convert All Lists to YAML
 
 on:
-  #schedule:
-    #- cron: '0 * * * *'  # 每小时运行一次
+#  schedule:
+#    - cron: '0 * * * *'  # 每小时运行一次
   workflow_dispatch:      # 允许手动触发
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3  # 升级到 v3 版本，支持更高的 Node.js 版本
 
     - name: Convert .list Files to .yaml
       run: |
