@@ -1,3 +1,4 @@
 payload:
   # 直连
   - DOMAIN-SUFFIX,broadcasthe.net
+  - IP-CIDR,146.56.165.249/32
