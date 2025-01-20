@@ -2,4 +2,5 @@ payload:
   # 直连
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,embyx.ozznb.com
+  - DOMAIN-SUFFIX,i.ozznb.com  
   - IP-CIDR,146.56.165.249/32
