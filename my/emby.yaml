@@ -26,4 +26,3 @@ payload:
   - DOMAIN-SUFFIX,kr01.mjjemby.org
   - DOMAIN-SUFFIX,kr02.mjjemby.org
   - DOMAIN-SUFFIX,embyx.ozznb.com
-  - IP-CIDR,146.56.165.249/32
