@@ -35,4 +35,3 @@ payload:
   - DOMAIN-SUFFIX,tracker-campus.tjupt.org 
   - DOMAIN-SUFFIX,tracker.totheglory.im 
   - DOMAIN-SUFFIX,pt.upxin.net 
-  - URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
