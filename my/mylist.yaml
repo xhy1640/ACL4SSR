@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,rickandmorty1.ca
   - DOMAIN-SUFFIX,nzbs.in
   - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,mongodb.net
