@@ -14,3 +14,6 @@ payload:
   - DOMAIN-SUFFIX,nzbs.in
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,mongodb.net
+  - DOMAIN-SUFFIX,api.themoviedb.org
+  - DOMAIN-SUFFIX, image.tmdb.org
+  - DOMAIN-SUFFIX, api.tmdb.org
