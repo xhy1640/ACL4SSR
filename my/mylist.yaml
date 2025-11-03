@@ -17,3 +17,4 @@ payload:
   - DOMAIN-SUFFIX,api.themoviedb.org
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.tmdb.org
+  - DOMAIN-SUFFIX,argotunnel.com
