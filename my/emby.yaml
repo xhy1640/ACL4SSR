@@ -3,14 +3,7 @@ payload:
   - DOMAIN-SUFFIX,cjpc.tv
   - DOMAIN-SUFFIX,thedayweplay.lol
   - DOMAIN-SUFFIX,mypikpak.com
-  - DOMAIN-SUFFIX,plex.tv
-  - IP-CIDR,152.69.160.98/32 
-  - IP-CIDR,193.123.224.72/32  
-  - IP-CIDR,139.185.47.25/32 
-  - IP-CIDR,168.138.167.224/32
-  - IP-CIDR,146.56.108.123/32
-  - IP-CIDR,146.56.189.168/32
-  - IP-CIDR,130.61.137.163/32 
+  - DOMAIN-SUFFIX,plex.tv 
   - DOMAIN-SUFFIX,pub1.emby.wtf
   - DOMAIN-SUFFIX,pub2.emby.wtf
   - DOMAIN-SUFFIX,pub3.emby.wtf
@@ -25,5 +18,4 @@ payload:
   - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,kr01.mjjemby.org
   - DOMAIN-SUFFIX,kr02.mjjemby.org
-  - DOMAIN-SUFFIX,embyx.ozznb.com
 
