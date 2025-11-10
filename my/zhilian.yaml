@@ -11,3 +11,4 @@ payload:
   - IP-CIDR,146.56.189.168/32
   - IP-CIDR,130.61.137.163/32
   - DOMAIN-SUFFIX,testflight.apple.com
+  - IP-CIDR,51.81.222.206/32
