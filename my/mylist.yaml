@@ -17,3 +17,6 @@ payload:
   - DOMAIN-SUFFIX,image.tmdb.org
   - DOMAIN-SUFFIX,api.tmdb.org
   - DOMAIN-SUFFIX,argotunnel.com
+  - DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+  - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,weatherkit.apple.com
