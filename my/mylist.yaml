@@ -21,3 +21,4 @@ payload:
   - DOMAIN-SUFFIX,guzzoni.apple.com
   - DOMAIN-SUFFIX,weatherkit.apple.com
   - DOMAIN-SUFFIX,platform.dbankcloud.com
+  - IP-CIDR,130.61.137.163/32
