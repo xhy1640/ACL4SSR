@@ -1,0 +1,66 @@
+payload:
+  # > 社交IP属地代理规则 (用于修改/固定发帖、评论、资料的IP属地)
+
+  # ===== 小红书 (XiaoHongShu) =====
+  - DOMAIN,edith.xiaohongshu.com
+  - DOMAIN,www.xiaohongshu.com
+  - DOMAIN,pages.xiaohongshu.com
+  - DOMAIN,referee.xiaohongshu.com
+  - DOMAIN,fe-api.xiaohongshu.com
+  - DOMAIN,spark.xiaohongshu.com
+  - DOMAIN-SUFFIX,xiaohongshu.com
+
+  # ===== 哔哩哔哩 (Bilibili) =====
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,api.vc.bilibili.com
+  - DOMAIN,app.bilibili.com
+  - DOMAIN,passport.bilibili.com
+  - DOMAIN,member.bilibili.com
+  - DOMAIN,link.bilibili.com
+  - DOMAIN,t.bilibili.com
+  - DOMAIN,message.bilibili.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,b23.tv
+  - DOMAIN-SUFFIX,acg.tv
+
+  # ===== 微博 (Weibo / Sina) =====
+  - DOMAIN,api.weibo.cn
+  - DOMAIN,api.weibo.com
+  - DOMAIN,card.weibo.com
+  - DOMAIN,passport.weibo.com
+  - DOMAIN,m.weibo.cn
+  - DOMAIN,weibo.cn
+  - DOMAIN,weibo.com
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+
+  # ===== 抖音 / 头条 (Douyin / ByteDance) =====
+  - DOMAIN,aweme.snssdk.com
+  - DOMAIN,api.amemv.com
+  - DOMAIN,api-core.amemv.com
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,toutiao.com
+
+  # ===== 知乎 (Zhihu) =====
+  - DOMAIN,api.zhihu.com
+  - DOMAIN,www.zhihu.com
+  - DOMAIN-SUFFIX,zhihu.com
+
+  # ===== 百度贴吧 (Baidu Tieba) =====
+  - DOMAIN,tieba.baidu.com
+  - DOMAIN,tbapi.baidu.com
+  - DOMAIN,tiebac.baidu.com
+
+  # ===== 快手 (Kuaishou) =====
+  - DOMAIN,api.kuaishou.com
+  - DOMAIN,live.kuaishou.com
+  - DOMAIN-SUFFIX,kuaishou.com
+  - DOMAIN-SUFFIX,gifshow.com
+
+  # ===== 微信公众号 / 视频号 (WeChat MP / Channels) =====
+  - DOMAIN,mp.weixin.qq.com
+  - DOMAIN,channels.weixin.qq.com

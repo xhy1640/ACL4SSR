@@ -1,0 +1,50 @@
+payload:
+  # > 社交平台媒体与静态CDN直连规则 (音视频、图片直连，节省节点流量并避免卡顿)
+
+  # ===== 小红书 图片与静态 CDN =====
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,xhscdn.net
+  - DOMAIN-SUFFIX,redsline.com
+  - DOMAIN,ci.xiaohongshu.com
+
+  # ===== 哔哩哔哩 音视频流与图片 CDN =====
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilivideo.cn
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,szbdyd.com
+  - DOMAIN-SUFFIX,smtcdns.net
+  - DOMAIN-SUFFIX,acgvideo.com
+
+  # ===== 微博 图片、视频与静态资源 =====
+  - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-SUFFIX,video.weibo.com
+  - DOMAIN-SUFFIX,sinajs.cn
+  - DOMAIN-SUFFIX,miaopai.com
+
+  # ===== 抖音 / 头条 视频流与静态 CDN =====
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,toutiaovod.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,byteeffectgrowth.com
+  - DOMAIN-SUFFIX,bytetcdn.com
+  - DOMAIN-SUFFIX,volccdn.com
+
+  # ===== 知乎 静态资源与图片 CDN =====
+  - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN,static.zhihu.com
+
+  # ===== 百度贴吧 静态图片 =====
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,tieba.bdimg.com
+
+  # ===== 快手 视频流与图片 CDN =====
+  - DOMAIN-SUFFIX,kuaishouzt.com
+  - DOMAIN-SUFFIX,yximgs.com
+  - DOMAIN-SUFFIX,ksapisrv.com
+
+  # ===== 微信 静态资源与图片 CDN =====
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,res.wx.qq.com
