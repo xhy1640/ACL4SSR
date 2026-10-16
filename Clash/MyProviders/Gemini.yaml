@@ -10,6 +10,7 @@ payload:
   - DOMAIN,makersuite.google.com
   - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
   - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,oauth2.googleapis.com
   - DOMAIN,cloudaicompanion.googleapis.com
   - DOMAIN,cloudcode-pa.googleapis.com
   - DOMAIN,notebooklm-pa.googleapis.com
