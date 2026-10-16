@@ -1,5 +1,7 @@
 payload:
   # 直连
+  - DOMAIN-SUFFIX,web.agents-anywhere.com
+  - DOMAIN-SUFFIX,cdnfhnfile.115cdn.net
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,i.ozznb.com  
   - IP-CIDR,146.56.165.249/32
@@ -11,3 +13,4 @@ payload:
   - IP-CIDR,146.56.189.168/32
   - IP-CIDR,130.61.137.163/32
   - IP-CIDR,51.81.222.206/32
+  - IP-CIDR,114.132.187.136/32
