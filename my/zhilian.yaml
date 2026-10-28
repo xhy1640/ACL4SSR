@@ -1,5 +1,6 @@
 payload:
   # 直连
+  - DOMAIN-SUFFIX,codebuddy.cn
   - DOMAIN-SUFFIX,picix.us
   - DOMAIN-SUFFIX,web.agents-anywhere.com
   - DOMAIN-SUFFIX,cdnfhnfile.115cdn.net
