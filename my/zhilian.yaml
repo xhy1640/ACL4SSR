@@ -1,6 +1,8 @@
 payload:
   # 直连
+  - DOMAIN,copilot.tencent.com
   - DOMAIN-SUFFIX,codebuddy.cn
+  - DOMAIN-SUFFIX,workbuddy.cn
   - DOMAIN-SUFFIX,picix.us
   - DOMAIN-SUFFIX,web.agents-anywhere.com
   - DOMAIN-SUFFIX,cdnfhnfile.115cdn.net
