@@ -12,7 +12,8 @@ payload:
   - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,oauth2.googleapis.com
   - DOMAIN,cloudaicompanion.googleapis.com
-  - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN-KEYWORD,cloudcode-pa
   - DOMAIN,notebooklm-pa.googleapis.com
   - DOMAIN,notebooklm.googleapis.com
   - DOMAIN,proactivebackend-pa.googleapis.com
